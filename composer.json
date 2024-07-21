@@ -1,5 +1,5 @@
 {
-    "name": "asmiarowski/laravel-postgres",
+    "name": "dbetts/laravel-postgres",
     "description": "Eloquent support for postgreSQL fields",
     "keywords": ["laravel", "postgres", "postgreSQL"],
     "license": "MIT",
