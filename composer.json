@@ -4,7 +4,7 @@
     "keywords": ["laravel", "postgres", "postgreSQL"],
     "license": "MIT",
     "require": {
-        "laravel/framework": "^11.0",
+        "laravel/framework": "^12.0",
         "php": ">=5.5.9"
     },
     "require-dev": {
