@@ -11,7 +11,7 @@ class Helper
     public static function phpArrayToPostgresArray(array $array)
     {
         $array = self::removeKeys($array);
-        $array = json_encode($array, JSON_UNESCAPED_UNICODE);
+        $array = json_encode($array, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
         return str_replace('[', '{', str_replace(']', '}', str_replace('"', '', $array)));
     }
